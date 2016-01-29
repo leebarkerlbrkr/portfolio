@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "noyh-medium-webfont";
+  src: url("/fonts/noyh-medium-webfont.eot") format("eot"), url("/fonts/noyh-medium-webfont.svg") format("svg"), url("/fonts/noyh-medium-webfont.ttf") format("truetype"), url("/fonts/noyh-medium-webfont.woff") format("woff"), url("/fonts/noyh-medium-webfont.woff2") format("woff2");
+}
+@font-face {
+  font-family: "noyh-bold-webfont";
+  src: url("/fonts/noyh-bold-webfont.eot");
+  src: url("/fonts/noyh-bold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/noyh-bold-webfont.woff2") format("woff2"), url("/fonts/noyh-bold-webfont.woff") format("woff"), url("/fonts/noyh-bold-webfont.ttf") format("truetype"), url("/fonts/noyh-bold-webfont.svg#svgFontName") format("svg");
+}
+@font-face {
+  font-family: "noyh-thin-webfont";
+  src: url("/fonts/noyh-thin-webfont.eot");
+  src: url("/fonts/noyh-thin-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/noyh-thin-webfont.woff2") format("woff2"), url("/fonts/noyh-thin-webfont.woff") format("woff"), url("/fonts/noyh-thin-webfont.ttf") format("truetype"), url("/fonts/noyh-thin-webfont.svg#svgFontName") format("svg");
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+html {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.footer ul.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.footer ul.menu li {
+  font-family: "noyh-thin-webfont";
+  font-size: 16px;
+  list-style-type: none;
+  margin-right: 10px;
+}
+.footer ul.menu li a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+.fullvideo {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -100;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.wrapper {
+  margin: 0 auto;
+  height: 140px;
+  width: 600px;
+  font-size: 55px;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  margin: 0 auto;
+  display: block;
+  width: 585px;
+}
+.name h1, .name h3, .name h2 {
+  color: white;
+  text-shadow: 0px 1px 3px #555555;
+}
+.name h3, .name h2 {
+  font-family: "noyh-thin-webfont";
+  font-size: 25px;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.name h1 {
+  font-family: "noyh-bold-webfont";
+  font-size: 120px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  height: 105px;
+  letter-spacing: -3px;
+  margin-top: -30px;
+}
+.name h2 {
+  text-align: left;
+  margin-left: 7px;
+  padding-top: 5px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.name h3 {
+  text-align: right;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
